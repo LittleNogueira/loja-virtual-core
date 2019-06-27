@@ -28,6 +28,11 @@
             <column name="tx_description" type="TEXT">
                 <constraints nullable="false"/>
             </column>
+
+            <column name="tx_url" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+
         </createTable>
     </changeSet>
 

@@ -39,13 +39,19 @@ public class Product {
     @Column(name = "nb_amount")
     private Integer amount;
 
+    @Setter
+    @NotNull
+    @Column(name = "tx_url")
+    private String url;
+
     public Product(){}
 
-    public Product(String name,BigDecimal value, String description, Integer amount){
+    public Product(String name,BigDecimal value, String description, Integer amount, String url){
         this.name = name;
         this.description = description;
         this.value = value;
         this.amount = amount;
+        this.url = url;
     }
 
 }

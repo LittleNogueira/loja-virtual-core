@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class ProductBuilder {
 
     public static Product convert(ProductDto productDto){
-        return new Product(productDto.getName(),productDto.getValue(),productDto.getDescription(),productDto.getAmount());
+        return new Product(productDto.getName(),productDto.getValue(),productDto.getDescription(),productDto.getAmount(),productDto.getUrl());
     }
 
     public static List<ProductDto> convert(List<Product> products){
@@ -22,6 +22,7 @@ public class ProductBuilder {
         product.setDescription(productDto.getDescription());
         product.setAmount(productDto.getAmount());
         product.setValue(productDto.getValue());
+        product.setUrl(productDto.getUrl());
 
         return product;
     }
