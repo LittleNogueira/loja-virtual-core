@@ -23,16 +23,12 @@ public class ProductDto {
     private String description;
 
     @NotNull
-    private Integer amount;
-
-    @NotNull
     private String url;
 
     public ProductDto(String name, BigDecimal value, String description, Integer amount, String url){
         this.name = name;
         this.value = value;
         this.description = description;
-        this.amount = amount;
         this.url = url;
     }
 
@@ -41,7 +37,6 @@ public class ProductDto {
         this.name = product.getName();
         this.value = product.getValue();
         this.description = product.getDescription();
-        this.amount = product.getAmount();
         this.url = product.getUrl();
     }
 }

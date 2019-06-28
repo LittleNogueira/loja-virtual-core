@@ -34,10 +34,6 @@ public class Product {
     @Column(name = "nb_value")
     private BigDecimal value;
 
-    @Setter
-    @NotNull
-    @Column(name = "nb_amount")
-    private Integer amount;
 
     @Setter
     @NotNull
@@ -46,11 +42,10 @@ public class Product {
 
     public Product(){}
 
-    public Product(String name,BigDecimal value, String description, Integer amount, String url){
+    public Product(String name,BigDecimal value, String description, String url){
         this.name = name;
         this.description = description;
         this.value = value;
-        this.amount = amount;
         this.url = url;
     }
 

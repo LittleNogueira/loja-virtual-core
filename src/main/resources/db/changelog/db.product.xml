@@ -21,10 +21,6 @@
                 <constraints nullable="false"/>
             </column>
 
-            <column name="nb_amount" type="INT">
-                <constraints nullable="false"/>
-            </column>
-
             <column name="tx_description" type="TEXT">
                 <constraints nullable="false"/>
             </column>

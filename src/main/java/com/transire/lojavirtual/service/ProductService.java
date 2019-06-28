@@ -20,7 +20,7 @@ public class ProductService {
     }
 
     public ProductDto findById(Long id){
-        return new ProductDto(this.productRepository.getOne(id));
+        return new ProductDto(this.productRepository.findById(id).get());
     }
 
     public ProductDto save(ProductDto productDto){
