@@ -46,3 +46,7 @@ O Apache Maven é uma ferramenta de gerenciamento e compreensão de projetos de 
 #### PostgreSQL
 
 PostgreSQL é um sistema gerenciador de banco de dados objeto relacional (SGBD), desenvolvido como projeto de código aberto
+
+#### Liquibase
+
+O Liquibase é uma biblioteca independente de banco de dados de código aberto para rastreamento, gerenciamento e aplicação de alterações no esquema do banco de dados. Ele foi iniciado em 2006 para permitir o acompanhamento mais fácil de alterações de banco de dados, especialmente em um ambiente de desenvolvimento de software ágil.
