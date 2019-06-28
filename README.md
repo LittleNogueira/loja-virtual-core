@@ -12,11 +12,11 @@ Requisitos
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
 
-Crie um banco de dados com o nome "loja_virtual".
-
+Suba o container postgre com o seguinte comando
 
 ```
- CREATE DATABASE loja_virtual
+ cd /caminho/do/projeto/loja-virtual-core/
+ docker-compose up -d
 ```
 
 Importe e excute o projeto em uma IDE Java, Eclipse de preferencia.
