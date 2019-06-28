@@ -45,7 +45,7 @@ O Apache Maven é uma ferramenta de gerenciamento e compreensão de projetos de 
 
 #### PostgreSQL
 
-PostgreSQL é um sistema gerenciador de banco de dados objeto relacional (SGBD), desenvolvido como projeto de código aberto
+PostgreSQL é um sistema gerenciador de banco de dados objeto relacional (SGBD), desenvolvido como projeto de código aberto.
 
 #### Liquibase
 
