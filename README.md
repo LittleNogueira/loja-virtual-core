@@ -50,3 +50,7 @@ PostgreSQL é um sistema gerenciador de banco de dados objeto relacional (SGBD),
 #### Liquibase
 
 O Liquibase é uma biblioteca independente de banco de dados de código aberto para rastreamento, gerenciamento e aplicação de alterações no esquema do banco de dados. Ele foi iniciado em 2006 para permitir o acompanhamento mais fácil de alterações de banco de dados, especialmente em um ambiente de desenvolvimento de software ágil.
+
+#### Docker
+
+Docker é uma tecnologia de software que fornece contêineres, promovido pela empresa Docker, Inc. O Docker fornece uma camada adicional de abstração e automação de virtualização de nível de sistema operacional no Windows e no Linux.
