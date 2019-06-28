@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Gradle, tem como principal objetivo servir dados para a aplicação <a href="https://github.com/LittleNogueira/loja-virtual" target="+blank" >Loja Virtual Cliente</a>
+A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Maven, tem como principal objetivo servir dados para a aplicação <a href="https://github.com/LittleNogueira/loja-virtual" target="+blank" >Loja Virtual Cliente</a>
 
 ## Intruções para configuração
 
@@ -10,11 +10,10 @@ Requisitos
 
 - <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank" >Docker</a>
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
-- <a href="https://gradle.org/install/" target="_blank">Gradle</a>
+- <a href="https://maven.apache.org/" target="_blank">Maven</a>
 
 Crie um banco de dados com o nome "loja_virtual".
 
-Altere a senha e usuario do banco no arquivo application.properties.
 
 ```
  CREATE DATABASE loja_virtual
