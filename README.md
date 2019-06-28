@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Maven, tem como principal objetivo servir dados para a aplicação <a href="https://github.com/LittleNogueira/loja-virtual" target="+blank" >Loja Virtual Cliente</a>
+A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Maven, tem como principal objetivo servir dados para a aplicação <a href="https://github.com/LittleNogueira/loja-virtual-web" target="+blank" >loja-virtual-web</a>
 
 ## Intruções para configuração
 
