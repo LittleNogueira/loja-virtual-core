@@ -21,8 +21,6 @@ Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao exec
 
 Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial abaixo
 
-- <a href="https://www.devmedia.com.br/instalando-postgresql/23364" target="_blank" >Configurar Postgres</a>
-
 Altere a senha e usuario do banco no arquivo application.properties.
 
 Crie um banco de dados com o nome de `loja-virtual` voce pode usar o seguinte comando
