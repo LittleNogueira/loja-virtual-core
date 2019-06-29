@@ -12,14 +12,14 @@ Requisitos
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
 
-Suba o container postgre com o seguinte comando
+Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira criar dois containers um para a aplicacao em Spring Boot e o outro container para o nosso banco de dados em postgres.  
 
 ```
  cd /caminho/do/projeto/loja-virtual-core/
  docker-compose up -d
 ```
 
-Importe e excute o projeto em uma IDE Java, Eclipse de preferencia.
+Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial no link abaixo
 
 ### Rotas
 
