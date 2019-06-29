@@ -12,14 +12,22 @@ Requisitos
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
 
-Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira criar dois containers um para a aplicacao em Spring Boot e o outro container para o nosso banco de dados em postgres.  
+Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira criar dois containers um para a aplicacao em Spring Boot e o outro container para o nosso banco de dados postgres.  
 
 ```
  cd /caminho/do/projeto/loja-virtual-core/
  docker-compose up -d
 ```
 
-Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial no link abaixo
+Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial abaixo
+
+- <a href="https://www.devmedia.com.br/instalando-postgresql/23364" target="_blank" >Configurar Postgres</a>
+
+Crie um banco de dados com o nome de `loja-virtual` voce pode usar o seguinte comando
+
+```
+createdb -U postgres -h localhost loja-virtual
+```
 
 ### Rotas
 
