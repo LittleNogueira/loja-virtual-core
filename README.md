@@ -12,6 +12,7 @@ Requisitos
 - <a href="https://docs.docker.com/compose/install/" target="_blank" >Docker compose</a>
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
+- <a href="https://www.postgresql.org/download/" target="_blank">PostgreSql</a>
 
 Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira criar dois containers um para a aplicacao em Spring Boot e o outro container para o nosso banco de dados postgres.  
 
