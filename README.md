@@ -23,11 +23,22 @@ Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial 
 
 - <a href="https://www.devmedia.com.br/instalando-postgresql/23364" target="_blank" >Configurar Postgres</a>
 
+Altere a senha e usuario do banco no arquivo application.properties.
+
 Crie um banco de dados com o nome de `loja-virtual` voce pode usar o seguinte comando
 
 ```
 createdb -U postgres -h localhost loja-virtual
 ```
+
+Baixe todas as dependencias necessarias com o maven
+
+```
+ cd /caminho/do/projeto/loja-virtual-core/
+ mvn install -DskipTests
+```
+
+Importe e excute o projeto em uma IDE Java, Eclipse de preferencia.
 
 ### Rotas
 
