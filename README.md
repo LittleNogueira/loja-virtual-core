@@ -9,14 +9,33 @@ A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Maven
 Requisitos
 
 - <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank" >Docker</a>
+- <a href="https://docs.docker.com/compose/install/" target="_blank" >Docker compose</a>
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
+- <a href="https://www.postgresql.org/download/" target="_blank">PostgreSql</a>
 
-Suba o container postgre com o seguinte comando
+Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira criar dois containers um para a aplicacao em Spring Boot e o outro container para o nosso banco de dados postgres.  
 
 ```
  cd /caminho/do/projeto/loja-virtual-core/
  docker-compose up -d
+```
+
+Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial abaixo
+
+Altere a senha e usuario do banco no arquivo application.properties.
+
+Crie um banco de dados com o nome de `loja-virtual` voce pode usar o seguinte comando
+
+```
+createdb -U postgres -h localhost loja-virtual
+```
+
+Baixe todas as dependencias necessarias com o maven
+
+```
+ cd /caminho/do/projeto/loja-virtual-core/
+ mvn install -DskipTests
 ```
 
 Importe e excute o projeto em uma IDE Java, Eclipse de preferencia.
