@@ -1,6 +1,18 @@
 version: '2'
 
 services:
+  spring:
+    build:
+      context: .
+      dockerfile: docker/spring.dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    networks:
+      - loja-virtual
+    restart: on-failure
+
   postgres:
     image: postgres:9.4
     container_name: postgres
@@ -10,3 +22,9 @@ services:
       - POSTGRES_DB=loja-virtual
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
+    networks:
+      - loja-virtual
+
+networks:
+  loja-virtual:
+    driver: bridge
