@@ -9,6 +9,7 @@ A Loja Virtual API Rest é um projeto desenvolvido em Spring Boot 2 usando Maven
 Requisitos
 
 - <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank" >Docker</a>
+- <a href="https://docs.docker.com/compose/install/" target="_blank" >Docker compose</a>
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html"  target="_blank">JDK</a>
 - <a href="https://maven.apache.org/" target="_blank">Maven</a>
 
